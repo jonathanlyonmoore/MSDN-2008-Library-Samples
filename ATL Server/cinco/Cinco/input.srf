@@ -1,0 +1,73 @@
+<html>
+{{handler Cinco.dll/Default}}
+<script language=jscript>
+	function CheckSubmit(f)
+	{
+		var strGuess = f.guess.value;
+		var strPattern = "^[a-zA-z]{" + "{{length}}" + "}$";
+		var matcher = new RegExp(strPattern);
+		if (strGuess.length != {{length}})
+		{
+			alert("You must enter a {{length}}-letter word");
+			return false;
+		}
+		if (!matcher.test(strGuess))
+		{
+			alert("Word must be composed of {{length}} letters");
+			return false;
+		}
+		
+		return true;
+	}
+</script>
+<script language=jscript for=window event="onload()">
+	var frame1=top.frames("output");
+	var strGuess = "{{guess}}";
+	var nMatches = {{matches}};
+	var nExact = {{exact}};
+	var bGuessValid = {{guessvalid}};
+	if (!bGuessValid)
+	{
+		alert(strGuess + " is not a valid word");
+	}
+	else if (strGuess.length == {{length}})
+	{
+		var oTable = frame1.document.all["GuessTable"];
+		var oRow = oTable.insertRow();
+		var i;
+
+		for (i=0; i<strGuess.length; i++)
+		{
+			var oCell = oRow.insertCell();
+			var strChar = strGuess.substr(i, 1);
+			oCell.innerHTML = "<p class=" + strChar + ">" + strChar + "</p>";
+		}
+
+		i=0;
+		for (; i<nExact; i++)
+		{
+			var oCell = oRow.insertCell();
+			oCell.innerHTML = "<IMG SRC=exact.bmp>";
+		}
+		for (; i<nMatches; i++)
+		{
+			var oCell = oRow.insertCell();
+			oCell.innerHTML = "<IMG SRC=match.bmp>";
+		}
+		for (; i<{{length}}; i++)
+		{
+			var oCell = oRow.insertCell();
+			oCell.innerHTML = "<IMG SRC=wrong.bmp>";
+		}
+	}
+</script>
+<head>
+</head>
+<body>
+<form action=input.srf method=POST onsubmit="return CheckSubmit(this);">
+	<input type=text maxlength={{length}} size={{length}} name=guess>
+	<input type=submit value="Send Guess">
+	<input type=hidden name=word value="{{word}}">
+</form>
+</body>
+</html>

@@ -1,0 +1,48 @@
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TstCon", "TstConLKG8.vcproj", "{E60F9BFB-EA05-4570-BD1D-D95A40C0ECFB}"
+	ProjectSection(ProjectDependencies) = postProject
+		{D550E27B-2E52-40BC-B082-C1EB14B31B7A} = {D550E27B-2E52-40BC-B082-C1EB14B31B7A}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TCProps", "TCProps\TCPropsLKG8.vcproj", "{D550E27B-2E52-40BC-B082-C1EB14B31B7A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Debug|Win64 (AMD64) = Debug|Win64 (AMD64)
+		Debug|Win64 (Itanium) = Debug|Win64 (Itanium)
+		Release|Win32 = Release|Win32
+		Release|Win64 (AMD64) = Release|Win64 (AMD64)
+		Release|Win64 (Itanium) = Release|Win64 (Itanium)
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E60F9BFB-EA05-4570-BD1D-D95A40C0ECFB}.Debug|Win32.ActiveCfg = Debug|Win32
+		{E60F9BFB-EA05-4570-BD1D-D95A40C0ECFB}.Debug|Win32.Build.0 = Debug|Win32
+		{E60F9BFB-EA05-4570-BD1D-D95A40C0ECFB}.Debug|Win64 (AMD64).ActiveCfg = Debug|Win64 (AMD64)
+		{E60F9BFB-EA05-4570-BD1D-D95A40C0ECFB}.Debug|Win64 (AMD64).Build.0 = Debug|Win64 (AMD64)
+		{E60F9BFB-EA05-4570-BD1D-D95A40C0ECFB}.Debug|Win64 (Itanium).ActiveCfg = Debug|Win64 (Itanium)
+		{E60F9BFB-EA05-4570-BD1D-D95A40C0ECFB}.Debug|Win64 (Itanium).Build.0 = Debug|Win64 (Itanium)
+		{E60F9BFB-EA05-4570-BD1D-D95A40C0ECFB}.Release|Win32.ActiveCfg = Release|Win32
+		{E60F9BFB-EA05-4570-BD1D-D95A40C0ECFB}.Release|Win32.Build.0 = Release|Win32
+		{E60F9BFB-EA05-4570-BD1D-D95A40C0ECFB}.Release|Win64 (AMD64).ActiveCfg = Release|Win64 (AMD64)
+		{E60F9BFB-EA05-4570-BD1D-D95A40C0ECFB}.Release|Win64 (AMD64).Build.0 = Release|Win64 (AMD64)
+		{E60F9BFB-EA05-4570-BD1D-D95A40C0ECFB}.Release|Win64 (Itanium).ActiveCfg = Release|Win64 (Itanium)
+		{E60F9BFB-EA05-4570-BD1D-D95A40C0ECFB}.Release|Win64 (Itanium).Build.0 = Release|Win64 (Itanium)
+		{D550E27B-2E52-40BC-B082-C1EB14B31B7A}.Debug|Win32.ActiveCfg = Debug|Win32
+		{D550E27B-2E52-40BC-B082-C1EB14B31B7A}.Debug|Win32.Build.0 = Debug|Win32
+		{D550E27B-2E52-40BC-B082-C1EB14B31B7A}.Debug|Win64 (AMD64).ActiveCfg = Debug|Win64 (AMD64)
+		{D550E27B-2E52-40BC-B082-C1EB14B31B7A}.Debug|Win64 (AMD64).Build.0 = Debug|Win64 (AMD64)
+		{D550E27B-2E52-40BC-B082-C1EB14B31B7A}.Debug|Win64 (Itanium).ActiveCfg = Debug|Win64 (Itanium)
+		{D550E27B-2E52-40BC-B082-C1EB14B31B7A}.Debug|Win64 (Itanium).Build.0 = Debug|Win64 (Itanium)
+		{D550E27B-2E52-40BC-B082-C1EB14B31B7A}.Release|Win32.ActiveCfg = Release|Win32
+		{D550E27B-2E52-40BC-B082-C1EB14B31B7A}.Release|Win32.Build.0 = Release|Win32
+		{D550E27B-2E52-40BC-B082-C1EB14B31B7A}.Release|Win64 (AMD64).ActiveCfg = Release|Win64 (AMD64)
+		{D550E27B-2E52-40BC-B082-C1EB14B31B7A}.Release|Win64 (AMD64).Build.0 = Release|Win64 (AMD64)
+		{D550E27B-2E52-40BC-B082-C1EB14B31B7A}.Release|Win64 (Itanium).ActiveCfg = Release|Win64 (Itanium)
+		{D550E27B-2E52-40BC-B082-C1EB14B31B7A}.Release|Win64 (Itanium).Build.0 = Release|Win64 (Itanium)
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

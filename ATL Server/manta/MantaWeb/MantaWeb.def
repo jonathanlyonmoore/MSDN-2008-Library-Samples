@@ -1,0 +1,9 @@
+; MantaWeb.def : declares the module parameters for the DLL.
+; Copyright (c) Microsoft Corporation.  All rights reserved.
+
+LIBRARY	     "MantaWeb"
+
+EXPORTS
+	HttpExtensionProc
+	GetExtensionVersion
+	TerminateExtension

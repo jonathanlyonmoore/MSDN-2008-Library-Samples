@@ -1,0 +1,25 @@
+{{handler Bids.dll/Login}}
+<html>
+<head>
+	<meta HTTP-EQUIV="Content-Type" content="text/html; charset=iso-8859-1">
+	<title>Welcome to Bids Online</title>
+</head>
+<body background="border.png" onload="document.frm.username.focus()">
+<img src="bidsonline.gif" hspace="60">
+<table>
+	<td width=200 valign=top>
+		<td><h1>Welcome to Bids Online</h1>
+			<p>Please log on:</p>
+			<p><font color=#ff0000>{{GetLastError}}</font></p>
+			<form action="login.srf" method="post" name="frm">
+			<table>
+				<tr><td>User Name</td><td><input type="text" name="username"></td></tr>
+				<tr><td>Password</td><td><input type="password" name="password"></td></tr>
+			</table>
+			<p><input type="submit" value="Login"></p>
+			</form>
+		</td>
+	</td>
+</table>
+</body>
+</html>

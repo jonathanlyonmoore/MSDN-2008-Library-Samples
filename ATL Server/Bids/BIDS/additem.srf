@@ -1,0 +1,35 @@
+{{handler Bids.dll/AddItem}}
+<html>
+<head>
+	<meta HTTP-EQUIV="Content-Type" content="text/html; charset=iso-8859-1">
+	<title>Auction an item</title>
+</head>
+{{include header.srf}}
+<p><font color=#ff0000>{{GetError}}</font></p>
+<form action="additem.srf" method="GET">
+<table>
+	<tr>
+		<td>Short Description</td>
+		<td><input type="text" name="shortdesc" value="{{GetShortDesc}}"></td>
+	</tr>
+	<tr>
+		<td valign="top">Long Description</td>
+		<td><textarea name="longdesc" cols="60" rows="24">{{GetLongDesc}}</textarea></td>
+	</tr>
+	<tr>
+		<td>Ending Date</td>
+		<td><input type="text" name="enddate" value="{{GetEndDate}}"></td>
+	</tr>
+	<tr>
+		<td>Ending Time</td>
+		<td><input type="text" name="endtime" value="{{GetEndTime}}"></td>
+	</tr>
+	<tr>
+		<td>Minimum Bid</td>
+		<td><input type="text" name="minbid" value="{{GetMinBid}}"></td>
+	</tr>
+</table>
+<input type="submit" value="Start the bidding!">
+</form>
+{{include footer.srf}}
+</html>

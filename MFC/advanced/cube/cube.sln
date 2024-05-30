@@ -1,0 +1,31 @@
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Cube", "cube.vcproj", "{9928F8D0-6D20-43B6-ADF9-058638BE9BCA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Debug|x64 = Debug|x64
+		Debug|Itanium = Debug|Itanium
+		Release|Win32 = Release|Win32
+		Release|x64 = Release|x64
+		Release|Itanium = Release|Itanium
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9928F8D0-6D20-43B6-ADF9-058638BE9BCA}.Debug|Win32.ActiveCfg = Debug|Win32
+		{9928F8D0-6D20-43B6-ADF9-058638BE9BCA}.Debug|Win32.Build.0 = Debug|Win32
+		{9928F8D0-6D20-43B6-ADF9-058638BE9BCA}.Debug|x64.ActiveCfg = Debug|x64
+		{9928F8D0-6D20-43B6-ADF9-058638BE9BCA}.Debug|x64.Build.0 = Debug|x64
+		{9928F8D0-6D20-43B6-ADF9-058638BE9BCA}.Debug|Itanium.ActiveCfg = Debug|Itanium
+		{9928F8D0-6D20-43B6-ADF9-058638BE9BCA}.Debug|Itanium.Build.0 = Debug|Itanium
+		{9928F8D0-6D20-43B6-ADF9-058638BE9BCA}.Release|Win32.ActiveCfg = Release|Win32
+		{9928F8D0-6D20-43B6-ADF9-058638BE9BCA}.Release|Win32.Build.0 = Release|Win32
+		{9928F8D0-6D20-43B6-ADF9-058638BE9BCA}.Release|x64.ActiveCfg = Release|x64
+		{9928F8D0-6D20-43B6-ADF9-058638BE9BCA}.Release|x64.Build.0 = Release|x64
+		{9928F8D0-6D20-43B6-ADF9-058638BE9BCA}.Release|Itanium.ActiveCfg = Release|Itanium
+		{9928F8D0-6D20-43B6-ADF9-058638BE9BCA}.Release|Itanium.Build.0 = Release|Itanium
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,8 @@
+; WebSvcInteropIsapi.def : declares the module parameters for the DLL.
+
+LIBRARY	     "WebSvcInteropIsapi"
+
+EXPORTS
+	HttpExtensionProc
+	GetExtensionVersion
+	TerminateExtension

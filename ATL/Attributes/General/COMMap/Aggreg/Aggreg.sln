@@ -1,0 +1,46 @@
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Aggreg", "Aggreg.vcproj", "{0FE37147-81EE-11D3-969A-00A0C908DB89}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Debug|x64 = Debug|x64
+		Debug|Itanium = Debug|Itanium
+		Release|Win32 = Release|Win32
+		Release|x64 = Release|x64
+		Release|Itanium = Release|Itanium
+		Unicode Debug|Win32 = Unicode Debug|Win32
+		Unicode Debug|x64 = Unicode Debug|x64
+		Unicode Debug|Itanium = Unicode Debug|Itanium
+		Unicode Release|Win32 = Unicode Release|Win32
+		Unicode Release|x64 = Unicode Release|x64
+		Unicode Release|Itanium = Unicode Release|Itanium
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0FE37147-81EE-11D3-969A-00A0C908DB89}.Debug|Win32.ActiveCfg = Debug|Win32
+		{0FE37147-81EE-11D3-969A-00A0C908DB89}.Debug|Win32.Build.0 = Debug|Win32
+		{0FE37147-81EE-11D3-969A-00A0C908DB89}.Debug|x64.ActiveCfg = Debug|x64
+		{0FE37147-81EE-11D3-969A-00A0C908DB89}.Debug|x64.Build.0 = Debug|x64
+		{0FE37147-81EE-11D3-969A-00A0C908DB89}.Debug|Itanium.ActiveCfg = Debug|Itanium
+		{0FE37147-81EE-11D3-969A-00A0C908DB89}.Debug|Itanium.Build.0 = Debug|Itanium
+		{0FE37147-81EE-11D3-969A-00A0C908DB89}.Release|Win32.ActiveCfg = Debug|Win32
+		{0FE37147-81EE-11D3-969A-00A0C908DB89}.Release|x64.ActiveCfg = Release|x64
+		{0FE37147-81EE-11D3-969A-00A0C908DB89}.Release|x64.Build.0 = Release|x64
+		{0FE37147-81EE-11D3-969A-00A0C908DB89}.Release|Itanium.ActiveCfg = Release|Itanium
+		{0FE37147-81EE-11D3-969A-00A0C908DB89}.Release|Itanium.Build.0 = Release|Itanium
+		{0FE37147-81EE-11D3-969A-00A0C908DB89}.Unicode Debug|Win32.ActiveCfg = Debug|Win32
+		{0FE37147-81EE-11D3-969A-00A0C908DB89}.Unicode Debug|x64.ActiveCfg = Debug|x64
+		{0FE37147-81EE-11D3-969A-00A0C908DB89}.Unicode Debug|x64.Build.0 = Debug|x64
+		{0FE37147-81EE-11D3-969A-00A0C908DB89}.Unicode Debug|Itanium.ActiveCfg = Debug|Itanium
+		{0FE37147-81EE-11D3-969A-00A0C908DB89}.Unicode Debug|Itanium.Build.0 = Debug|Itanium
+		{0FE37147-81EE-11D3-969A-00A0C908DB89}.Unicode Release|Win32.ActiveCfg = Debug|Win32
+		{0FE37147-81EE-11D3-969A-00A0C908DB89}.Unicode Release|x64.ActiveCfg = Release|x64
+		{0FE37147-81EE-11D3-969A-00A0C908DB89}.Unicode Release|x64.Build.0 = Release|x64
+		{0FE37147-81EE-11D3-969A-00A0C908DB89}.Unicode Release|Itanium.ActiveCfg = Release|Itanium
+		{0FE37147-81EE-11D3-969A-00A0C908DB89}.Unicode Release|Itanium.Build.0 = Release|Itanium
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

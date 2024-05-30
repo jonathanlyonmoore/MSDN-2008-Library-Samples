@@ -1,0 +1,10 @@
+{{handler Bids.dll/Main}}
+<html>
+<head>
+	<meta HTTP-EQUIV="Content-Type" content="text/html; charset=iso-8859-1">
+	<title>Bids Online main page</title>
+</head>
+{{include header.srf}}
+<p>Welcome, {{FirstName}} {{LastName}}, to Bids Online.</p>
+{{include footer.srf}}
+</html>

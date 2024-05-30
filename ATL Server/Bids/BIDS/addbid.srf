@@ -1,0 +1,21 @@
+{{handler Bids.dll/AddBid}}
+<html>
+<head>
+	<meta HTTP-EQUIV="Content-Type" content="text/html; charset=iso-8859-1">
+	<title>Bid on an item</title>
+</head>
+{{include header.srf}}
+<p>Current bid is {{GetMaxBid}}.  You must bid at least {{GetMinNextBid}}.</p>
+<p><font color=#ff0000>{{GetError}}</font></p>
+<form action="addbid.srf" method="GET">
+	<input type="hidden" name="itemid" value="{{GetItemID}}">
+	<table>
+	<tr>
+		<td>How much do you want to bid? </td>
+		<td><input type="text" name="bidamount" value="{{GetMinNextBid}}"></td>
+	</tr>
+	</table>
+	<input type=submit value="Submit bid">
+</form>
+{{include footer.srf}}
+</html>

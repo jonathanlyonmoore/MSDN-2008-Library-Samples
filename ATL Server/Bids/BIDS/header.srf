@@ -1,0 +1,13 @@
+{{handler Bids.dll/Basic}}
+<body background="border.png">
+<img src="bidsonline.gif" hspace="60">
+<table>
+	<td width="200" valign="top">
+		<a href="default.htm">Main page</a><br>
+		<a href="browse.srf">Browse all auctions</a><br>
+		{{if IsLoggedOn}}
+		<a href="userinfo.srf?userid={{GetLoggedOnUserID}}">Your auctions</a><br>
+		<a href="additem.srf">Auction an item</a><br>
+		{{endif}}
+	</td>
+	<td>

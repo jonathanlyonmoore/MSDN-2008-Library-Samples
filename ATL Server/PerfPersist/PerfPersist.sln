@@ -1,0 +1,62 @@
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "PerfPersist", "PerfPersist\PerfPersist.vcproj", "{761A9A96-A35E-48EE-8C53-E3B4A4F96FAC}"
+	ProjectSection(ProjectDependencies) = postProject
+		{547F9FBE-633B-48E4-82F7-87D9F410B8C0} = {547F9FBE-633B-48E4-82F7-87D9F410B8C0}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "PerfPersistIsapi", "PerfPersistIsapi\PerfPersistIsapi.vcproj", "{BC6AD4E5-5F58-4367-8CCE-2ADBDE44FB6C}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "PerfServ", "PerfServ\PerfServ.vcproj", "{547F9FBE-633B-48E4-82F7-87D9F410B8C0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Debug|x64 = Debug|x64
+		Debug|Itanium = Debug|Itanium
+		Release|Win32 = Release|Win32
+		Release|x64 = Release|x64
+		Release|Itanium = Release|Itanium
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{761A9A96-A35E-48EE-8C53-E3B4A4F96FAC}.Debug|Win32.ActiveCfg = Debug|Win32
+		{761A9A96-A35E-48EE-8C53-E3B4A4F96FAC}.Debug|Win32.Build.0 = Debug|Win32
+		{761A9A96-A35E-48EE-8C53-E3B4A4F96FAC}.Debug|x64.ActiveCfg = Debug|x64
+		{761A9A96-A35E-48EE-8C53-E3B4A4F96FAC}.Debug|x64.Build.0 = Debug|x64
+		{761A9A96-A35E-48EE-8C53-E3B4A4F96FAC}.Debug|Itanium.ActiveCfg = Debug|Itanium
+		{761A9A96-A35E-48EE-8C53-E3B4A4F96FAC}.Debug|Itanium.Build.0 = Debug|Itanium
+		{761A9A96-A35E-48EE-8C53-E3B4A4F96FAC}.Release|Win32.ActiveCfg = Release|Win32
+		{761A9A96-A35E-48EE-8C53-E3B4A4F96FAC}.Release|Win32.Build.0 = Release|Win32
+		{761A9A96-A35E-48EE-8C53-E3B4A4F96FAC}.Release|x64.ActiveCfg = Release|x64
+		{761A9A96-A35E-48EE-8C53-E3B4A4F96FAC}.Release|x64.Build.0 = Release|x64
+		{761A9A96-A35E-48EE-8C53-E3B4A4F96FAC}.Release|Itanium.ActiveCfg = Release|Itanium
+		{761A9A96-A35E-48EE-8C53-E3B4A4F96FAC}.Release|Itanium.Build.0 = Release|Itanium
+		{BC6AD4E5-5F58-4367-8CCE-2ADBDE44FB6C}.Debug|Win32.ActiveCfg = Debug|Win32
+		{BC6AD4E5-5F58-4367-8CCE-2ADBDE44FB6C}.Debug|Win32.Build.0 = Debug|Win32
+		{BC6AD4E5-5F58-4367-8CCE-2ADBDE44FB6C}.Debug|x64.ActiveCfg = Debug|x64
+		{BC6AD4E5-5F58-4367-8CCE-2ADBDE44FB6C}.Debug|x64.Build.0 = Debug|x64
+		{BC6AD4E5-5F58-4367-8CCE-2ADBDE44FB6C}.Debug|Itanium.ActiveCfg = Debug|Itanium
+		{BC6AD4E5-5F58-4367-8CCE-2ADBDE44FB6C}.Debug|Itanium.Build.0 = Debug|Itanium
+		{BC6AD4E5-5F58-4367-8CCE-2ADBDE44FB6C}.Release|Win32.ActiveCfg = Release|Win32
+		{BC6AD4E5-5F58-4367-8CCE-2ADBDE44FB6C}.Release|Win32.Build.0 = Release|Win32
+		{BC6AD4E5-5F58-4367-8CCE-2ADBDE44FB6C}.Release|x64.ActiveCfg = Release|x64
+		{BC6AD4E5-5F58-4367-8CCE-2ADBDE44FB6C}.Release|x64.Build.0 = Release|x64
+		{BC6AD4E5-5F58-4367-8CCE-2ADBDE44FB6C}.Release|Itanium.ActiveCfg = Release|Itanium
+		{BC6AD4E5-5F58-4367-8CCE-2ADBDE44FB6C}.Release|Itanium.Build.0 = Release|Itanium
+		{547F9FBE-633B-48E4-82F7-87D9F410B8C0}.Debug|Win32.ActiveCfg = Debug|Win32
+		{547F9FBE-633B-48E4-82F7-87D9F410B8C0}.Debug|Win32.Build.0 = Debug|Win32
+		{547F9FBE-633B-48E4-82F7-87D9F410B8C0}.Debug|x64.ActiveCfg = Debug|x64
+		{547F9FBE-633B-48E4-82F7-87D9F410B8C0}.Debug|x64.Build.0 = Debug|x64
+		{547F9FBE-633B-48E4-82F7-87D9F410B8C0}.Debug|Itanium.ActiveCfg = Debug|Itanium
+		{547F9FBE-633B-48E4-82F7-87D9F410B8C0}.Debug|Itanium.Build.0 = Debug|Itanium
+		{547F9FBE-633B-48E4-82F7-87D9F410B8C0}.Release|Win32.ActiveCfg = Release|Win32
+		{547F9FBE-633B-48E4-82F7-87D9F410B8C0}.Release|Win32.Build.0 = Release|Win32
+		{547F9FBE-633B-48E4-82F7-87D9F410B8C0}.Release|x64.ActiveCfg = Release|x64
+		{547F9FBE-633B-48E4-82F7-87D9F410B8C0}.Release|x64.Build.0 = Release|x64
+		{547F9FBE-633B-48E4-82F7-87D9F410B8C0}.Release|Itanium.ActiveCfg = Release|Itanium
+		{547F9FBE-633B-48E4-82F7-87D9F410B8C0}.Release|Itanium.Build.0 = Release|Itanium
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

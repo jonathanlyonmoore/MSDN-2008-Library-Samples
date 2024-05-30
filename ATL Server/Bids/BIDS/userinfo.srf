@@ -1,0 +1,34 @@
+{{handler Bids.dll/ViewUser}}
+<html>
+<head>
+	<meta HTTP-EQUIV="Content-Type" content="text/html; charset=iso-8859-1">
+	<title>Information on {{GetUserName}}</title>
+</head>
+{{include header.srf}}
+<h1>{{GetUserName}}'s auctions:</h1>
+<table cellspacing=10>
+<tr>
+	<th align="center">Item name</td>
+	<th align="center">Start date</td>
+	<th align="center">End date</td>
+	<th align="center">Current bid</td>
+</tr>
+{{while GetNextItem}}
+<tr>
+	<td><a href="iteminfo.srf?itemid={{GetItemID}}">{{GetItemName}}</a></td>
+	<td>{{GetStartDate}}</td>
+	<td>{{GetEndDate}}</td>
+	<td>{{GetMaxBid}}</td>
+	{{if CurrentUser}}
+	<td><a href="edititem.srf?itemid={{GetItemID}}">Edit this item</a></td>
+	{{endif}}
+</tr>
+{{endwhile}}
+</table>	
+
+{{if CurrentUser}}
+<p>You are currently logged on as this user.</p>
+{{endif}}
+
+{{include footer.srf}}
+</html>

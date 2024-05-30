@@ -1,0 +1,27 @@
+{{handler Bids.dll/Browse}}
+<html>
+<head>
+	<meta HTTP-EQUIV="Content-Type" content="text/html; charset=iso-8859-1">
+	<title>Browse Auctions</title>
+</head>
+{{include header.srf}}
+<h1>Current Auctions:</h1>
+<table cellspacing="10">
+<tr>
+	<td align="center">Item name</td>
+	<td align="center">Auction start</td>
+	<td align="center">Current bid</td>
+	<td align="center">Auction ends</td>
+</tr>
+	
+{{while GetNextItem}}
+<tr>
+	<td><a href="iteminfo.srf?itemid={{GetItemID}}">{{GetItemName}}</a></td>
+	<td>{{GetStartDate}}</td>
+	<td align="right">{{GetMaxBid}}</td>
+	<td>{{GetEndDate}}</td>
+</tr>
+{{endwhile}}
+</table>	
+{{include footer.srf}}
+</html>

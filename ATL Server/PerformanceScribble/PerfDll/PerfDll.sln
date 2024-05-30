@@ -1,0 +1,42 @@
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "PerfDll", "PerfDll.vcproj", "{DCA76CD7-7D29-4E04-8AB8-B11EB073C0FB}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "PerfDllPS", "PerfDllPS.vcproj", "{65E5704E-FC46-4B96-9A6D-5637B0281033}"
+	ProjectSection(ProjectDependencies) = postProject
+		{DCA76CD7-7D29-4E04-8AB8-B11EB073C0FB} = {DCA76CD7-7D29-4E04-8AB8-B11EB073C0FB}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Itanium = Debug|Itanium
+		Debug|Win32 = Debug|Win32
+		Debug|x64 = Debug|x64
+		Release|Itanium = Release|Itanium
+		Release|Win32 = Release|Win32
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DCA76CD7-7D29-4E04-8AB8-B11EB073C0FB}.Debug|Itanium.ActiveCfg = Debug|Itanium
+		{DCA76CD7-7D29-4E04-8AB8-B11EB073C0FB}.Debug|Itanium.Build.0 = Debug|Itanium
+		{DCA76CD7-7D29-4E04-8AB8-B11EB073C0FB}.Debug|Win32.ActiveCfg = Debug|Win32
+		{DCA76CD7-7D29-4E04-8AB8-B11EB073C0FB}.Debug|Win32.Build.0 = Debug|Win32
+		{DCA76CD7-7D29-4E04-8AB8-B11EB073C0FB}.Debug|x64.ActiveCfg = Debug|x64
+		{DCA76CD7-7D29-4E04-8AB8-B11EB073C0FB}.Debug|x64.Build.0 = Debug|x64
+		{DCA76CD7-7D29-4E04-8AB8-B11EB073C0FB}.Release|Itanium.ActiveCfg = Release|Itanium
+		{DCA76CD7-7D29-4E04-8AB8-B11EB073C0FB}.Release|Itanium.Build.0 = Release|Itanium
+		{DCA76CD7-7D29-4E04-8AB8-B11EB073C0FB}.Release|Win32.ActiveCfg = Release|Win32
+		{DCA76CD7-7D29-4E04-8AB8-B11EB073C0FB}.Release|Win32.Build.0 = Release|Win32
+		{DCA76CD7-7D29-4E04-8AB8-B11EB073C0FB}.Release|x64.ActiveCfg = Release|x64
+		{DCA76CD7-7D29-4E04-8AB8-B11EB073C0FB}.Release|x64.Build.0 = Release|x64
+		{65E5704E-FC46-4B96-9A6D-5637B0281033}.Debug|Itanium.ActiveCfg = Debug|Itanium
+		{65E5704E-FC46-4B96-9A6D-5637B0281033}.Debug|Win32.ActiveCfg = Debug|Win32
+		{65E5704E-FC46-4B96-9A6D-5637B0281033}.Debug|x64.ActiveCfg = Debug|x64
+		{65E5704E-FC46-4B96-9A6D-5637B0281033}.Release|Itanium.ActiveCfg = Release|Itanium
+		{65E5704E-FC46-4B96-9A6D-5637B0281033}.Release|Win32.ActiveCfg = Release|Win32
+		{65E5704E-FC46-4B96-9A6D-5637B0281033}.Release|x64.ActiveCfg = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

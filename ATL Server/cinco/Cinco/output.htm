@@ -1,0 +1,74 @@
+<html>
+<head>
+	<style id="CharRules" type="text/css">
+	</style>
+</head>
+<body>
+	<script language=jscript for=window event="onload()">
+		var strHTML = "";
+		var nCodea = "a".charCodeAt(0);
+		var nCodeA = "A".charCodeAt(0);
+		var oStyles = document.styleSheets("CharRules");
+		for (i=0; i<26; i++)
+		{
+			var strChar = String.fromCharCode(nCodea + i);
+			oStyles.addRule("."+strChar, "font-weight:normal; font-size=large; color:black");
+		}
+		
+		var oHintTable = document.all["HintTable"];
+		var oRow1 = oHintTable.rows[0];
+		var oRow2 = oHintTable.rows[1];
+		for (i=0; i<13; i++)
+		{
+			var oCell;
+			var strChar;
+
+			oCell = oRow1.insertCell();
+			strLChar = String.fromCharCode(nCodea + i);
+			strCChar = String.fromCharCode(nCodeA + i);
+
+			oCell.innerHTML = "<div onclick=\"HintClicked(this);\" class=" + strLChar + ">" + strCChar + "</div>";
+
+			oCell = oRow2.insertCell();
+			strLChar = String.fromCharCode(nCodea + i + 13);
+			strCChar = String.fromCharCode(nCodeA + i + 13);
+
+			oCell.innerHTML = "<div onclick=\"HintClicked(this);\" class=" + strLChar + ">" + strCChar + "</div>";
+		}
+	</script>
+	<script>
+		function HintClicked(hint)
+		{
+			var strClass = hint.className;
+			var nRule = strClass.charCodeAt(0) - "a".charCodeAt(0);
+			var oSheet = document.styleSheets("CharRules");
+			var oRule = oSheet.rules[nRule];
+			var oStyle = oRule.style;
+			if (oStyle.color == "gray")
+			{
+				oStyle.fontWeight = "bold";
+				oStyle.color = "black";
+			}
+			else if (oStyle.fontWeight == "bold")
+			{
+				oStyle.fontWeight = "normal";
+				oStyle.color = "black";
+			}
+			else
+			{
+				oStyle.fontWeight = "normal";
+				oStyle.color = "gray";
+			}
+		}
+	</script>
+	<h2>CINCO</h2>
+	<table id=HintTable border=1>
+		<tr>
+		</tr>
+		<tr>
+		</tr>
+	</table>
+	<table id=GuessTable border=1>
+	</table>
+</body>
+</html>

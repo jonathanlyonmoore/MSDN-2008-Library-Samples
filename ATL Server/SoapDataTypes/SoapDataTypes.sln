@@ -1,0 +1,45 @@
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SoapDataTypes", "SoapDataTypes\SoapDataTypes.vcproj", "{96D470E6-AD8B-4637-8CB0-0E87E74E7434}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SoapDataTypesClient", "SoapDataTypesClient\SoapDataTypesClient.vcproj", "{234FA401-D2D1-46EF-976B-515A08792218}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Debug|x64 = Debug|x64
+		Debug|Itanium = Debug|Itanium
+		Release|Win32 = Release|Win32
+		Release|x64 = Release|x64
+		Release|Itanium = Release|Itanium
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{96D470E6-AD8B-4637-8CB0-0E87E74E7434}.Debug|Win32.ActiveCfg = Debug|Win32
+		{96D470E6-AD8B-4637-8CB0-0E87E74E7434}.Debug|Win32.Build.0 = Debug|Win32
+		{96D470E6-AD8B-4637-8CB0-0E87E74E7434}.Debug|x64.ActiveCfg = Debug|x64
+		{96D470E6-AD8B-4637-8CB0-0E87E74E7434}.Debug|x64.Build.0 = Debug|x64
+		{96D470E6-AD8B-4637-8CB0-0E87E74E7434}.Debug|Itanium.ActiveCfg = Debug|Itanium
+		{96D470E6-AD8B-4637-8CB0-0E87E74E7434}.Debug|Itanium.Build.0 = Debug|Itanium
+		{96D470E6-AD8B-4637-8CB0-0E87E74E7434}.Release|Win32.ActiveCfg = Release|Win32
+		{96D470E6-AD8B-4637-8CB0-0E87E74E7434}.Release|Win32.Build.0 = Release|Win32
+		{96D470E6-AD8B-4637-8CB0-0E87E74E7434}.Release|x64.ActiveCfg = Release|x64
+		{96D470E6-AD8B-4637-8CB0-0E87E74E7434}.Release|x64.Build.0 = Release|x64
+		{96D470E6-AD8B-4637-8CB0-0E87E74E7434}.Release|Itanium.ActiveCfg = Release|Itanium
+		{96D470E6-AD8B-4637-8CB0-0E87E74E7434}.Release|Itanium.Build.0 = Release|Itanium
+		{234FA401-D2D1-46EF-976B-515A08792218}.Debug|Win32.ActiveCfg = Debug|Win32
+		{234FA401-D2D1-46EF-976B-515A08792218}.Debug|Win32.Build.0 = Debug|Win32
+		{234FA401-D2D1-46EF-976B-515A08792218}.Debug|x64.ActiveCfg = Debug|x64
+		{234FA401-D2D1-46EF-976B-515A08792218}.Debug|x64.Build.0 = Debug|x64
+		{234FA401-D2D1-46EF-976B-515A08792218}.Debug|Itanium.ActiveCfg = Debug|Itanium
+		{234FA401-D2D1-46EF-976B-515A08792218}.Debug|Itanium.Build.0 = Debug|Itanium
+		{234FA401-D2D1-46EF-976B-515A08792218}.Release|Win32.ActiveCfg = Release|Win32
+		{234FA401-D2D1-46EF-976B-515A08792218}.Release|Win32.Build.0 = Release|Win32
+		{234FA401-D2D1-46EF-976B-515A08792218}.Release|x64.ActiveCfg = Release|x64
+		{234FA401-D2D1-46EF-976B-515A08792218}.Release|x64.Build.0 = Release|x64
+		{234FA401-D2D1-46EF-976B-515A08792218}.Release|Itanium.ActiveCfg = Release|Itanium
+		{234FA401-D2D1-46EF-976B-515A08792218}.Release|Itanium.Build.0 = Release|Itanium
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

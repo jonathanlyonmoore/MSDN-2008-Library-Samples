@@ -1,0 +1,8 @@
+; CincoIsapi.def : declares the module parameters for the DLL.
+
+LIBRARY	     "CincoIsapi"
+
+EXPORTS
+	HttpExtensionProc
+	GetExtensionVersion
+	TerminateExtension

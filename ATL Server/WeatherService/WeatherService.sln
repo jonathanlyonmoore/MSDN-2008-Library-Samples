@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "WeatherService", "WeatherService\WeatherService.vcproj", "{78862043-2CF9-4221-9EC3-DD5A8DAF14F3}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "WeatherServiceIsapi", "WeatherServiceIsapi\WeatherServiceIsapi.vcproj", "{212CE7BA-629A-41AC-A3C1-EE35E2797178}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Itanium = Debug|Itanium
+		Debug|Win32 = Debug|Win32
+		Debug|x64 = Debug|x64
+		Release|Itanium = Release|Itanium
+		Release|Win32 = Release|Win32
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{78862043-2CF9-4221-9EC3-DD5A8DAF14F3}.Debug|Itanium.ActiveCfg = Debug|Itanium
+		{78862043-2CF9-4221-9EC3-DD5A8DAF14F3}.Debug|Itanium.Build.0 = Debug|Itanium
+		{78862043-2CF9-4221-9EC3-DD5A8DAF14F3}.Debug|Win32.ActiveCfg = Debug|Win32
+		{78862043-2CF9-4221-9EC3-DD5A8DAF14F3}.Debug|Win32.Build.0 = Debug|Win32
+		{78862043-2CF9-4221-9EC3-DD5A8DAF14F3}.Debug|x64.ActiveCfg = Debug|x64
+		{78862043-2CF9-4221-9EC3-DD5A8DAF14F3}.Debug|x64.Build.0 = Debug|x64
+		{78862043-2CF9-4221-9EC3-DD5A8DAF14F3}.Release|Itanium.ActiveCfg = Release|Itanium
+		{78862043-2CF9-4221-9EC3-DD5A8DAF14F3}.Release|Itanium.Build.0 = Release|Itanium
+		{78862043-2CF9-4221-9EC3-DD5A8DAF14F3}.Release|Win32.ActiveCfg = Release|Win32
+		{78862043-2CF9-4221-9EC3-DD5A8DAF14F3}.Release|Win32.Build.0 = Release|Win32
+		{78862043-2CF9-4221-9EC3-DD5A8DAF14F3}.Release|x64.ActiveCfg = Release|x64
+		{78862043-2CF9-4221-9EC3-DD5A8DAF14F3}.Release|x64.Build.0 = Release|x64
+		{212CE7BA-629A-41AC-A3C1-EE35E2797178}.Debug|Itanium.ActiveCfg = Debug|Itanium
+		{212CE7BA-629A-41AC-A3C1-EE35E2797178}.Debug|Itanium.Build.0 = Debug|Itanium
+		{212CE7BA-629A-41AC-A3C1-EE35E2797178}.Debug|Win32.ActiveCfg = Debug|Win32
+		{212CE7BA-629A-41AC-A3C1-EE35E2797178}.Debug|Win32.Build.0 = Debug|Win32
+		{212CE7BA-629A-41AC-A3C1-EE35E2797178}.Debug|x64.ActiveCfg = Debug|x64
+		{212CE7BA-629A-41AC-A3C1-EE35E2797178}.Debug|x64.Build.0 = Debug|x64
+		{212CE7BA-629A-41AC-A3C1-EE35E2797178}.Release|Itanium.ActiveCfg = Release|Itanium
+		{212CE7BA-629A-41AC-A3C1-EE35E2797178}.Release|Itanium.Build.0 = Release|Itanium
+		{212CE7BA-629A-41AC-A3C1-EE35E2797178}.Release|Win32.ActiveCfg = Release|Win32
+		{212CE7BA-629A-41AC-A3C1-EE35E2797178}.Release|Win32.Build.0 = Release|Win32
+		{212CE7BA-629A-41AC-A3C1-EE35E2797178}.Release|x64.ActiveCfg = Release|x64
+		{212CE7BA-629A-41AC-A3C1-EE35E2797178}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

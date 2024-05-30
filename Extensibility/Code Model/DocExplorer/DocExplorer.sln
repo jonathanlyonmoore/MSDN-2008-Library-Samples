@@ -1,0 +1,31 @@
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DocExplorer", "DocExplorer.csproj", "{C654D54B-34DC-4145-B891-777368667AD7}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "DocExplorerSetup", "DocExplorerSetup\DocExplorerSetup.vdproj", "{B7CE16A5-6A06-462A-BA2D-B2233670F79E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DocExplorerCtrl", "DocExplorerCtrl\DocExplorerCtrl.csproj", "{ACB87638-2B61-4424-BBF1-9E126DE41AAE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Default = Debug|Default
+		Release|Default = Release|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C654D54B-34DC-4145-B891-777368667AD7}.Debug|Default.ActiveCfg = Debug|Any CPU
+		{C654D54B-34DC-4145-B891-777368667AD7}.Debug|Default.Build.0 = Debug|Any CPU
+		{C654D54B-34DC-4145-B891-777368667AD7}.Release|Default.ActiveCfg = Release|Any CPU
+		{C654D54B-34DC-4145-B891-777368667AD7}.Release|Default.Build.0 = Release|Any CPU
+		{B7CE16A5-6A06-462A-BA2D-B2233670F79E}.Debug|Default.ActiveCfg = Debug
+		{B7CE16A5-6A06-462A-BA2D-B2233670F79E}.Debug|Default.Build.0 = Debug
+		{B7CE16A5-6A06-462A-BA2D-B2233670F79E}.Release|Default.ActiveCfg = Release
+		{B7CE16A5-6A06-462A-BA2D-B2233670F79E}.Release|Default.Build.0 = Release
+		{ACB87638-2B61-4424-BBF1-9E126DE41AAE}.Debug|Default.ActiveCfg = Debug|Any CPU
+		{ACB87638-2B61-4424-BBF1-9E126DE41AAE}.Debug|Default.Build.0 = Debug|Any CPU
+		{ACB87638-2B61-4424-BBF1-9E126DE41AAE}.Release|Default.ActiveCfg = Release|Any CPU
+		{ACB87638-2B61-4424-BBF1-9E126DE41AAE}.Release|Default.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

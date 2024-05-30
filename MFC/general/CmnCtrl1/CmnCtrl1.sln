@@ -1,0 +1,31 @@
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CmnCtrl1", "CmnCtrl1.vcproj", "{8C45D45D-F278-4479-90BF-5B2904B7303A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Debug|x64 = Debug|x64
+		Debug|Itanium = Debug|Itanium
+		Release|Win32 = Release|Win32
+		Release|x64 = Release|x64
+		Release|Itanium = Release|Itanium
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8C45D45D-F278-4479-90BF-5B2904B7303A}.Debug|Win32.ActiveCfg = Debug|Win32
+		{8C45D45D-F278-4479-90BF-5B2904B7303A}.Debug|Win32.Build.0 = Debug|Win32
+		{8C45D45D-F278-4479-90BF-5B2904B7303A}.Debug|x64.ActiveCfg = Debug|x64
+		{8C45D45D-F278-4479-90BF-5B2904B7303A}.Debug|x64.Build.0 = Debug|x64
+		{8C45D45D-F278-4479-90BF-5B2904B7303A}.Debug|Itanium.ActiveCfg = Debug|Itanium
+		{8C45D45D-F278-4479-90BF-5B2904B7303A}.Debug|Itanium.Build.0 = Debug|Itanium
+		{8C45D45D-F278-4479-90BF-5B2904B7303A}.Release|Win32.ActiveCfg = Release|Win32
+		{8C45D45D-F278-4479-90BF-5B2904B7303A}.Release|Win32.Build.0 = Release|Win32
+		{8C45D45D-F278-4479-90BF-5B2904B7303A}.Release|x64.ActiveCfg = Release|x64
+		{8C45D45D-F278-4479-90BF-5B2904B7303A}.Release|x64.Build.0 = Release|x64
+		{8C45D45D-F278-4479-90BF-5B2904B7303A}.Release|Itanium.ActiveCfg = Release|Itanium
+		{8C45D45D-F278-4479-90BF-5B2904B7303A}.Release|Itanium.Build.0 = Release|Itanium
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

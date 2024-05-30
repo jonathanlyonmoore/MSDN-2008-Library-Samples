@@ -1,0 +1,7 @@
+To install the wizard
+1.	Copy all of the sample files to your hard disk.
+2.	Copy the three files in the VCAddClass directory to the Vc7\VCAddClass folder in the directory where Visual Studio was installed (for example, c:\Program Files\Microsoft Visual Studio .NET\Vc7\VcAddClass).
+3.	Copy the contents of the VCAddClass\ATL directory to the Vc7\VCAddClass\ATL folder in the directory where Visual Studio was installed (for example, c:\Program Files\Microsoft Visual Studio .NET\Vc7\VcAddClass\ATL).
+4.	Copy the AddInterface folder and its contents from the VCWizards\ClassWiz\ATL directory to the Vc7\VCWizards\ClassWiz\ATL folder in the directory where Visual Studio was installed (for example, c:\Program Files\Microsoft Visual Studio .NET\Vc7\VCWizards\ClassWiz\ATL).
+
+The wizard will be available the next time that you select Project, Add Class when an C++ project is open in VisualStudio. See the sample abstract in online help for more information.

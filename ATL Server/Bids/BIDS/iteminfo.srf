@@ -1,0 +1,45 @@
+{{handler Bids.dll/ViewItem}}
+<html>
+<head>
+	<meta HTTP-EQUIV="Content-Type" content="text/html; charset=iso-8859-1">
+	<title>{{ItemName}} Bidding history</title>
+</head>
+{{include header.srf}}
+<h1>{{ItemName}}</h1>
+<hr>
+{{ItemDescription}}
+<hr>
+Offered for sale by <a href="userinfo.srf?userid={{GetUserID}}">{{GetUserName}}</a>
+<hr>
+<h1 align="center">Bids</h1>
+<table align="center" border="1">
+	<tr>
+		<td>&nbsp;</td>
+		<td>Bidder ID</td>
+		<td>Bid Amount</td>
+	</tr>
+{{if GetNextBid}}
+	<tr>
+		<td>High bidder</td>
+		<td><a href="userinfo.srf?userid={{GetBidderID}}">{{GetBidderName}}</a></td>
+		<td>{{GetBidAmount}}</td>
+	</tr>
+{{endif}}
+{{if IsFullDisplay}}
+{{while GetNextBid}}
+	<tr>
+		<td>&nbsp;</td>
+		<td><a href="userinfo.srf?userid={{GetBidderID}}">{{GetBidderName}}</a></td>
+		<td>{{GetBidAmount}}</td>
+	</tr>
+{{endwhile}}
+{{endif}}
+</table>
+<hr>
+{{if IsNotFullDisplay}}
+<p><a href="iteminfo.srf?itemid={{GetItemID}}&view=full">View all bids</a> on this item.</p>
+{{endif}}
+<a href=addbid.srf?itemid={{GetItemID}}>Bid</a> on this item.<br>
+<a href=browse.srf>Browse</a> all items.</p>
+{{include footer.srf}}
+</html>

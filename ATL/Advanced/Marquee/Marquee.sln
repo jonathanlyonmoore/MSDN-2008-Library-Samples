@@ -1,0 +1,60 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Canvas", "Canvas\Canvas.vcproj", "{589D916D-49CD-4F0D-A250-6FD337542BE5}"
+	ProjectSection(ProjectDependencies) = postProject
+		{76CF13EB-05E4-4F2B-9FE6-BB02B5AEAB12} = {76CF13EB-05E4-4F2B-9FE6-BB02B5AEAB12}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "PerfDisp", "PerfDisp\PerfDisp.vcproj", "{76CF13EB-05E4-4F2B-9FE6-BB02B5AEAB12}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "PerfDispPS", "PerfDisp\PerfDispPS.vcproj", "{A804A7F1-16AC-4910-A93A-2F9DD63C6A6D}"
+	ProjectSection(ProjectDependencies) = postProject
+		{76CF13EB-05E4-4F2B-9FE6-BB02B5AEAB12} = {76CF13EB-05E4-4F2B-9FE6-BB02B5AEAB12}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Debug|x64 = Debug|x64
+		Debug|Itanium = Debug|Itanium
+		Release|Win32 = Release|Win32
+		Release|x64 = Release|x64
+		Release|Itanium = Release|Itanium
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{589D916D-49CD-4F0D-A250-6FD337542BE5}.Debug|Win32.ActiveCfg = Debug|Win32
+		{589D916D-49CD-4F0D-A250-6FD337542BE5}.Debug|Win32.Build.0 = Debug|Win32
+		{589D916D-49CD-4F0D-A250-6FD337542BE5}.Debug|x64.ActiveCfg = Debug|x64
+		{589D916D-49CD-4F0D-A250-6FD337542BE5}.Debug|x64.Build.0 = Debug|x64
+		{589D916D-49CD-4F0D-A250-6FD337542BE5}.Debug|Itanium.ActiveCfg = Debug|Itanium
+		{589D916D-49CD-4F0D-A250-6FD337542BE5}.Debug|Itanium.Build.0 = Debug|Itanium
+		{589D916D-49CD-4F0D-A250-6FD337542BE5}.Release|Win32.ActiveCfg = Release|Win32
+		{589D916D-49CD-4F0D-A250-6FD337542BE5}.Release|Win32.Build.0 = Release|Win32
+		{589D916D-49CD-4F0D-A250-6FD337542BE5}.Release|x64.ActiveCfg = Release|x64
+		{589D916D-49CD-4F0D-A250-6FD337542BE5}.Release|x64.Build.0 = Release|x64
+		{589D916D-49CD-4F0D-A250-6FD337542BE5}.Release|Itanium.ActiveCfg = Release|Itanium
+		{589D916D-49CD-4F0D-A250-6FD337542BE5}.Release|Itanium.Build.0 = Release|Itanium
+		{76CF13EB-05E4-4F2B-9FE6-BB02B5AEAB12}.Debug|Win32.ActiveCfg = Debug|Win32
+		{76CF13EB-05E4-4F2B-9FE6-BB02B5AEAB12}.Debug|Win32.Build.0 = Debug|Win32
+		{76CF13EB-05E4-4F2B-9FE6-BB02B5AEAB12}.Debug|x64.ActiveCfg = Debug|x64
+		{76CF13EB-05E4-4F2B-9FE6-BB02B5AEAB12}.Debug|x64.Build.0 = Debug|x64
+		{76CF13EB-05E4-4F2B-9FE6-BB02B5AEAB12}.Debug|Itanium.ActiveCfg = Debug|Itanium
+		{76CF13EB-05E4-4F2B-9FE6-BB02B5AEAB12}.Debug|Itanium.Build.0 = Debug|Itanium
+		{76CF13EB-05E4-4F2B-9FE6-BB02B5AEAB12}.Release|Win32.ActiveCfg = Release|Win32
+		{76CF13EB-05E4-4F2B-9FE6-BB02B5AEAB12}.Release|Win32.Build.0 = Release|Win32
+		{76CF13EB-05E4-4F2B-9FE6-BB02B5AEAB12}.Release|x64.ActiveCfg = Release|x64
+		{76CF13EB-05E4-4F2B-9FE6-BB02B5AEAB12}.Release|x64.Build.0 = Release|x64
+		{76CF13EB-05E4-4F2B-9FE6-BB02B5AEAB12}.Release|Itanium.ActiveCfg = Release|Itanium
+		{76CF13EB-05E4-4F2B-9FE6-BB02B5AEAB12}.Release|Itanium.Build.0 = Release|Itanium
+		{A804A7F1-16AC-4910-A93A-2F9DD63C6A6D}.Debug|Win32.ActiveCfg = Debug|Win32
+		{A804A7F1-16AC-4910-A93A-2F9DD63C6A6D}.Debug|x64.ActiveCfg = Debug|x64
+		{A804A7F1-16AC-4910-A93A-2F9DD63C6A6D}.Debug|Itanium.ActiveCfg = Debug|Itanium
+		{A804A7F1-16AC-4910-A93A-2F9DD63C6A6D}.Release|Win32.ActiveCfg = Release|Win32
+		{A804A7F1-16AC-4910-A93A-2F9DD63C6A6D}.Release|x64.ActiveCfg = Release|x64
+		{A804A7F1-16AC-4910-A93A-2F9DD63C6A6D}.Release|Itanium.ActiveCfg = Release|Itanium
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,31 @@
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MtMdi", "mtmdi.vcproj", "{917AF75B-F48B-4F90-BAEB-B745AF7BEA85}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Debug|x64 = Debug|x64
+		Debug|Itanium = Debug|Itanium
+		Release|Win32 = Release|Win32
+		Release|x64 = Release|x64
+		Release|Itanium = Release|Itanium
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{917AF75B-F48B-4F90-BAEB-B745AF7BEA85}.Debug|Win32.ActiveCfg = Debug|Win32
+		{917AF75B-F48B-4F90-BAEB-B745AF7BEA85}.Debug|Win32.Build.0 = Debug|Win32
+		{917AF75B-F48B-4F90-BAEB-B745AF7BEA85}.Debug|x64.ActiveCfg = Debug|x64
+		{917AF75B-F48B-4F90-BAEB-B745AF7BEA85}.Debug|x64.Build.0 = Debug|x64
+		{917AF75B-F48B-4F90-BAEB-B745AF7BEA85}.Debug|Itanium.ActiveCfg = Debug|Itanium
+		{917AF75B-F48B-4F90-BAEB-B745AF7BEA85}.Debug|Itanium.Build.0 = Debug|Itanium
+		{917AF75B-F48B-4F90-BAEB-B745AF7BEA85}.Release|Win32.ActiveCfg = Release|Win32
+		{917AF75B-F48B-4F90-BAEB-B745AF7BEA85}.Release|Win32.Build.0 = Release|Win32
+		{917AF75B-F48B-4F90-BAEB-B745AF7BEA85}.Release|x64.ActiveCfg = Release|x64
+		{917AF75B-F48B-4F90-BAEB-B745AF7BEA85}.Release|x64.Build.0 = Release|x64
+		{917AF75B-F48B-4F90-BAEB-B745AF7BEA85}.Release|Itanium.ActiveCfg = Release|Itanium
+		{917AF75B-F48B-4F90-BAEB-B745AF7BEA85}.Release|Itanium.Build.0 = Release|Itanium
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

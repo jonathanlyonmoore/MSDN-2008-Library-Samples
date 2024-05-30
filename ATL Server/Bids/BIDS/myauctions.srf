@@ -1,0 +1,19 @@
+<html>
+<head>
+	<meta HTTP-EQUIV="Content-Type" content="text/html; charset=iso-8859-1">
+	<title>Your Auctions</title>
+</head>
+{{include header.srf}}
+<h1>Your auctions:</h1>
+<table>
+{{while GetNextItem}}
+<tr>
+	<td>
+		<a href="iteminfo.srf?item={{GetItemID}}">{{GetItemName}}</a>
+	</td>
+</tr>
+{{endwhile}}
+</table>	
+
+{{include footer.srf}}
+</html>

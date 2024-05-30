@@ -1,0 +1,39 @@
+{{handler Bids.dll/AddUser}}
+<html>
+<head>
+	<meta HTTP-EQUIV="Content-Type" content="text/html; charset=iso-8859-1">
+	<title>New user</title>
+</head>
+{{include header.srf}}
+{{GetError}}
+<form action="adduser.srf" method="POST">
+<table>
+	<tr>
+		<td>First name</td>
+		<td><input type="text" name="firstname" value="{{GetFirstName}}"></td>
+	</tr>
+	<tr>
+		<td>Last name</td>
+		<td><input type="text" name="lastname" value="{{GetLastName}}"></td>
+	</tr>
+	<tr>
+		<td>User name</td>
+		<td><input type="text" name="username" value="{{GetUserName}}"></td>
+	</tr>
+	<tr>
+		<td>Email address</td>
+		<td><input type="text" name="email" value="{{GetEmail}}"></td>
+	</tr>
+	<tr>
+		<td>Password</td>
+		<td><input type="password" name="password"></td>
+	</tr>
+	<tr>
+		<td>Confirm password</td>
+		<td><input type="password" name="cpassword"></td>
+	</tr>
+</table>
+<input type="submit" value="Sign up!">
+</form>
+{{include footer.srf}}
+</HTML>

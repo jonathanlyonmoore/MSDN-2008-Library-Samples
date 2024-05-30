@@ -1,0 +1,9 @@
+<!--{{ handler cgi-bin\Main.dll/Default }} This file Copyright (c) Microsoft Corporation.  All rights reserved. -->
+<html>
+<head>
+<base target="banner_frame">
+</head>
+<body>
+<p><a href="http://msdn.microsoft.com/visualc/techinfo/default.asp" target="newbrowser"><img border="0" src="images/adbanner.gif"></a></p>
+</body>
+</html>

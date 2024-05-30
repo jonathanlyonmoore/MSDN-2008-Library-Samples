@@ -1,0 +1,7 @@
+LIBRARY XP_CHECKSUM
+
+EXPORTS
+   xp_checksum
+   __GetXpVersion
+
+	

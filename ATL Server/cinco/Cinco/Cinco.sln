@@ -1,0 +1,45 @@
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Cinco", "Cinco.vcproj", "{04777D44-16CF-4352-8CB2-250B669D0C8C}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CincoIsapi", "..\CincoIsapi\CincoIsapi.vcproj", "{916C38E2-70BC-40EE-9D04-C0536BCA1B24}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Debug|x64 = Debug|x64
+		Debug|Itanium = Debug|Itanium
+		Release|Win32 = Release|Win32
+		Release|x64 = Release|x64
+		Release|Itanium = Release|Itanium
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{04777D44-16CF-4352-8CB2-250B669D0C8C}.Debug|Win32.ActiveCfg = Debug|Win32
+		{04777D44-16CF-4352-8CB2-250B669D0C8C}.Debug|Win32.Build.0 = Debug|Win32
+		{04777D44-16CF-4352-8CB2-250B669D0C8C}.Debug|x64.ActiveCfg = Debug|x64
+		{04777D44-16CF-4352-8CB2-250B669D0C8C}.Debug|x64.Build.0 = Debug|x64
+		{04777D44-16CF-4352-8CB2-250B669D0C8C}.Debug|Itanium.ActiveCfg = Debug|Itanium
+		{04777D44-16CF-4352-8CB2-250B669D0C8C}.Debug|Itanium.Build.0 = Debug|Itanium
+		{04777D44-16CF-4352-8CB2-250B669D0C8C}.Release|Win32.ActiveCfg = Release|Win32
+		{04777D44-16CF-4352-8CB2-250B669D0C8C}.Release|Win32.Build.0 = Release|Win32
+		{04777D44-16CF-4352-8CB2-250B669D0C8C}.Release|x64.ActiveCfg = Release|x64
+		{04777D44-16CF-4352-8CB2-250B669D0C8C}.Release|x64.Build.0 = Release|x64
+		{04777D44-16CF-4352-8CB2-250B669D0C8C}.Release|Itanium.ActiveCfg = Release|Itanium
+		{04777D44-16CF-4352-8CB2-250B669D0C8C}.Release|Itanium.Build.0 = Release|Itanium
+		{916C38E2-70BC-40EE-9D04-C0536BCA1B24}.Debug|Win32.ActiveCfg = Debug|Win32
+		{916C38E2-70BC-40EE-9D04-C0536BCA1B24}.Debug|Win32.Build.0 = Debug|Win32
+		{916C38E2-70BC-40EE-9D04-C0536BCA1B24}.Debug|x64.ActiveCfg = Debug|x64
+		{916C38E2-70BC-40EE-9D04-C0536BCA1B24}.Debug|x64.Build.0 = Debug|x64
+		{916C38E2-70BC-40EE-9D04-C0536BCA1B24}.Debug|Itanium.ActiveCfg = Debug|Itanium
+		{916C38E2-70BC-40EE-9D04-C0536BCA1B24}.Debug|Itanium.Build.0 = Debug|Itanium
+		{916C38E2-70BC-40EE-9D04-C0536BCA1B24}.Release|Win32.ActiveCfg = Release|Win32
+		{916C38E2-70BC-40EE-9D04-C0536BCA1B24}.Release|Win32.Build.0 = Release|Win32
+		{916C38E2-70BC-40EE-9D04-C0536BCA1B24}.Release|x64.ActiveCfg = Release|x64
+		{916C38E2-70BC-40EE-9D04-C0536BCA1B24}.Release|x64.Build.0 = Release|x64
+		{916C38E2-70BC-40EE-9D04-C0536BCA1B24}.Release|Itanium.ActiveCfg = Release|Itanium
+		{916C38E2-70BC-40EE-9D04-C0536BCA1B24}.Release|Itanium.Build.0 = Release|Itanium
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

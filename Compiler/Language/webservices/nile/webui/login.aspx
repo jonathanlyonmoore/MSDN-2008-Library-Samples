@@ -1,0 +1,1 @@
+<%@ Page Inherits="Nile.Login"%>

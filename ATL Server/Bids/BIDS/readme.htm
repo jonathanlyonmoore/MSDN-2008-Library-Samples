@@ -1,0 +1,31 @@
+<HTML>
+<HEAD>
+<TITLE>Building and Running the Bids Online Sample</TITLE>
+<META NAME="GENERATOR" Content="Microsoft Developer Studio">
+<META HTTP-EQUIV="Content-Type" content="text/html; charset=iso-8859-1">
+</HEAD>
+<BODY>
+
+<h1>Building and Running the Bids Online Sample</h1>
+<OL>
+  <LI>Open the solution file, Bids.sln, in the Visual 
+  Studio development environment. 
+  <LI>If your web directory is in a location other than c:\inetpub\wwwroot, modify the data source constants in StdAfx.h 
+  accordingly.
+  <LI>Build the solution.&nbsp; This will also deploy the solution to the local 
+  web server, including the bidinfo.mdb database.
+  <LI>Use a web browser to view 
+  <A href="http://localhost/bids/default.htm">http://localhost/bids/default.htm</A>
+  &nbsp;and navigate through the site.</LI></OL>
+
+<h1>Important Note:</h1>
+<P><b>This sample is only provided to demonstrate features of ATL Server 
+and should not be used in a production environment.</b>&nbsp; For example, this sample is not hardened 
+against malicious input and performs no input validation checking, user sessions are 
+vulnerable to hijacking, the database is stored in a web accessible 
+location with weak permissions,&nbsp;and despite the fact that users may specify 
+a time to end the auction, functionality is not included to actually end the 
+auction.</P>
+
+</BODY>
+</HTML>

@@ -1,0 +1,67 @@
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "OnlineAddressBookWS", "OnlineAddressBookWS\OnlineAddressBookWS.vcproj", "{4C301F70-9C2F-47C4-8F75-0714C29B8D85}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "OnlineAddressBookWSIsapi", "OnlineAddressBookWSIsapi\OnlineAddressBookWSIsapi.vcproj", "{D6C4C6BC-C35C-4813-84B8-C6AB8F66482D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnlineAddressBookCsharpClient", "OnlineAddressBookCsharpClient\OnlineAddressBookCsharpClient.csproj", "{37E5AE18-2DA6-4874-904D-E4E2CE791737}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "OnlineAddressBookSRF", "OnlineAddressBookSRF\OnlineAddressBookSRF.vcproj", "{840E0E8A-2712-4213-A65C-255F27DA26AD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Debug|x64 = Debug|x64
+		Debug|Itanium = Debug|Itanium
+		Release|Win32 = Release|Win32
+		Release|x64 = Release|x64
+		Release|Itanium = Release|Itanium
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4C301F70-9C2F-47C4-8F75-0714C29B8D85}.Debug|Win32.ActiveCfg = Debug|Win32
+		{4C301F70-9C2F-47C4-8F75-0714C29B8D85}.Debug|Win32.Build.0 = Debug|Win32
+		{4C301F70-9C2F-47C4-8F75-0714C29B8D85}.Debug|x64.ActiveCfg = Debug|x64
+		{4C301F70-9C2F-47C4-8F75-0714C29B8D85}.Debug|x64.Build.0 = Debug|x64
+		{4C301F70-9C2F-47C4-8F75-0714C29B8D85}.Debug|Itanium.ActiveCfg = Debug|Itanium
+		{4C301F70-9C2F-47C4-8F75-0714C29B8D85}.Debug|Itanium.Build.0 = Debug|Itanium
+		{4C301F70-9C2F-47C4-8F75-0714C29B8D85}.Release|Win32.ActiveCfg = Release|Win32
+		{4C301F70-9C2F-47C4-8F75-0714C29B8D85}.Release|Win32.Build.0 = Release|Win32
+		{4C301F70-9C2F-47C4-8F75-0714C29B8D85}.Release|x64.ActiveCfg = Release|x64
+		{4C301F70-9C2F-47C4-8F75-0714C29B8D85}.Release|x64.Build.0 = Release|x64
+		{4C301F70-9C2F-47C4-8F75-0714C29B8D85}.Release|Itanium.ActiveCfg = Release|Itanium
+		{4C301F70-9C2F-47C4-8F75-0714C29B8D85}.Release|Itanium.Build.0 = Release|Itanium
+		{D6C4C6BC-C35C-4813-84B8-C6AB8F66482D}.Debug|Win32.ActiveCfg = Debug|Win32
+		{D6C4C6BC-C35C-4813-84B8-C6AB8F66482D}.Debug|Win32.Build.0 = Debug|Win32
+		{D6C4C6BC-C35C-4813-84B8-C6AB8F66482D}.Debug|x64.ActiveCfg = Debug|x64
+		{D6C4C6BC-C35C-4813-84B8-C6AB8F66482D}.Debug|x64.Build.0 = Debug|x64
+		{D6C4C6BC-C35C-4813-84B8-C6AB8F66482D}.Debug|Itanium.ActiveCfg = Debug|Itanium
+		{D6C4C6BC-C35C-4813-84B8-C6AB8F66482D}.Debug|Itanium.Build.0 = Debug|Itanium
+		{D6C4C6BC-C35C-4813-84B8-C6AB8F66482D}.Release|Win32.ActiveCfg = Release|Win32
+		{D6C4C6BC-C35C-4813-84B8-C6AB8F66482D}.Release|Win32.Build.0 = Release|Win32
+		{D6C4C6BC-C35C-4813-84B8-C6AB8F66482D}.Release|x64.ActiveCfg = Release|x64
+		{D6C4C6BC-C35C-4813-84B8-C6AB8F66482D}.Release|x64.Build.0 = Release|x64
+		{D6C4C6BC-C35C-4813-84B8-C6AB8F66482D}.Release|Itanium.ActiveCfg = Release|Itanium
+		{D6C4C6BC-C35C-4813-84B8-C6AB8F66482D}.Release|Itanium.Build.0 = Release|Itanium
+		{37E5AE18-2DA6-4874-904D-E4E2CE791737}.Debug|Win32.ActiveCfg = Debug|Any CPU
+		{37E5AE18-2DA6-4874-904D-E4E2CE791737}.Debug|Win64 (AMD64).ActiveCfg = Debug|Any CPU
+		{37E5AE18-2DA6-4874-904D-E4E2CE791737}.Debug|Win64 (Itanium).ActiveCfg = Debug|Any CPU
+		{37E5AE18-2DA6-4874-904D-E4E2CE791737}.Release|Win32.ActiveCfg = Release|Any CPU
+		{37E5AE18-2DA6-4874-904D-E4E2CE791737}.Release|Win64 (AMD64).ActiveCfg = Release|Any CPU
+		{37E5AE18-2DA6-4874-904D-E4E2CE791737}.Release|Win64 (Itanium).ActiveCfg = Release|Any CPU
+		{840E0E8A-2712-4213-A65C-255F27DA26AD}.Debug|Win32.ActiveCfg = Debug|Win32
+		{840E0E8A-2712-4213-A65C-255F27DA26AD}.Debug|Win32.Build.0 = Debug|Win32
+		{840E0E8A-2712-4213-A65C-255F27DA26AD}.Debug|x64.ActiveCfg = Debug|x64
+		{840E0E8A-2712-4213-A65C-255F27DA26AD}.Debug|x64.Build.0 = Debug|x64
+		{840E0E8A-2712-4213-A65C-255F27DA26AD}.Debug|Itanium.ActiveCfg = Debug|Itanium
+		{840E0E8A-2712-4213-A65C-255F27DA26AD}.Debug|Itanium.Build.0 = Debug|Itanium
+		{840E0E8A-2712-4213-A65C-255F27DA26AD}.Release|Win32.ActiveCfg = Release|Win32
+		{840E0E8A-2712-4213-A65C-255F27DA26AD}.Release|Win32.Build.0 = Release|Win32
+		{840E0E8A-2712-4213-A65C-255F27DA26AD}.Release|x64.ActiveCfg = Release|x64
+		{840E0E8A-2712-4213-A65C-255F27DA26AD}.Release|x64.Build.0 = Release|x64
+		{840E0E8A-2712-4213-A65C-255F27DA26AD}.Release|Itanium.ActiveCfg = Release|Itanium
+		{840E0E8A-2712-4213-A65C-255F27DA26AD}.Release|Itanium.Build.0 = Release|Itanium
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

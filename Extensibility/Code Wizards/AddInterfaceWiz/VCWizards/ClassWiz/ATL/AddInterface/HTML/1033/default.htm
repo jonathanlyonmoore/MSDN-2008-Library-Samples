@@ -1,0 +1,380 @@
+<!-- Copyright (c) Microsoft Corporation.  All rights reserved.  -->
+<HTML DIR="LTR">
+	<HEAD>
+		<TITLE>ATL Interface Wizard</TITLE>
+		<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=iso-8859-1">
+		<STYLE TYPE="text/css">
+			@import url();</STYLE>
+		<SCRIPT>
+		var strURL = "../../../../../";
+		strURL += window.external.GetHostLocale();
+		strURL += "/NewStyles.css";
+		document.styleSheets(0).imports(0).href = strURL;
+		</SCRIPT>
+		<SYMBOL NAME="INTERFACE_NAME" TYPE="text" VALUE=""></SYMBOL>
+		<SYMBOL NAME="INTERFACE_FILE" TYPE="text" VALUE=""></SYMBOL>
+		<SYMBOL NAME="DUAL" TYPE="radio" VALUE="false"></SYMBOL>
+		<SYMBOL NAME="CUSTOM" TYPE="radio" VALUE="true"></SYMBOL>
+		<SYMBOL NAME="AUTOMATION" TYPE="checkbox" VALUE="false"></SYMBOL>
+		<SYMBOL NAME="HELPSTRING" TYPE="text" VALUE=""></SYMBOL>
+		<SYMBOL NAME="COMMENT" TYPE="text" VALUE=""></SYMBOL>
+		<SYMBOL NAME="ATTRIBUTED" TYPE="checkbox" VALUE="false"></SYMBOL>
+	</HEAD>
+	<BODY BGCOLOR="BUTTONFACE" TOPMARGIN="0" LEFTMARGIN="0" RIGHTMARGIN="0" BOTTOMMARGIN="0" ONLOAD="InitDocument(document);" ONKEYDOWN="OnKey();" ONKEYPRESS="OnPress()">
+		<TABLE CLASS="ONE" BORDER="0" CELLPADDING="0" CELLSPACING="0">
+			<COL WIDTH="100%">
+				<TR VALIGN="TOP">
+					<TD HEIGHT="79">
+						<!--OPEN OF ALL ENCOMPASSING TABLE ROW ONE//-->
+						<TABLE CLASS="TWO" BORDER="0" CELLPADDING="0" CELLSPACING="0">
+							<COL WIDTH="12">
+								<COL>
+									<COL WIDTH="12">
+										<TR>
+											<TD VALIGN="TOP" HEIGHT="12" WIDTH="12">
+												&nbsp;
+											</TD>
+											<TD VALIGN="TOP" HEIGHT="12">
+												&nbsp;
+											</TD>
+											<TD VALIGN="TOP" HEIGHT="12" WIDTH="12">
+												&nbsp;
+											</TD>
+											<TD CLASS="IMAGE" VALIGN="BOTTOM" WIDTH="110" ROWSPAN="2">
+												<DIV CLASS="SMALLA" ID="Layer0">
+													<IMG CLASS="SMALLEST" SRC="..\..\Images\Interface.gif" WIDTH="63" HEIGHT="63" ALT="" BORDER="0">
+													</IMG>
+												</DIV>
+											</TD>
+											<TD VALIGN="TOP" HEIGHT="12" WIDTH="6" ROWSPAN="2">
+												&nbsp;
+											</TD>
+										</TR>
+										<TR>
+											<TD VALIGN="TOP" HEIGHT="65" WIDTH="12">
+												&nbsp;
+											</TD>
+											<TD VALIGN="TOP" HEIGHT="65">
+												<H4 CLASS="HEAD" ID="HEAD">
+													Welcome to the Add Interface Wizard
+												</H4>
+												<P CLASS="SUBHEAD" ID="SUBHEAD">
+													This wizard adds an interface to your project.
+												</P>
+											</TD>
+											<TD VALIGN="TOP" HEIGHT="65" WIDTH="12">
+												&nbsp;
+											</TD>
+										</TR>
+										<TR>
+											<TD VALIGN="TOP" CLASS="RULE" COLSPAN="5" HEIGHT="2">
+												<TABLE BORDER="0" WIDTH="100%" HEIGHT="1" CELLPADDING="0" CELLSPACING="0">
+													<TR VALIGN="TOP">
+														<TD VALIGN="TOP" CLASS="RULE" COLSPAN="8" HEIGHT="2">
+															<TABLE BORDER="0" WIDTH="100%" HEIGHT="1" CELLPADDING="0" CELLSPACING="0">
+																<TR VALIGN="TOP">
+																	<TD HEIGHT="1" WIDTH="100%" BGCOLOR="BUTTONSHADOW">
+																		<IMG SRC="../../Images/spacer.gif" HEIGHT="1" WIDTH="1" ALT="">
+																	</TD>
+																	<TD HEIGHT="1" WIDTH="1" BGCOLOR="WINDOW">
+																		<IMG SRC="../../Images/spacer.gif" HEIGHT="1" WIDTH="1" ALT="">
+																	</TD>
+																</TR>
+															</TABLE>
+														</TD>
+													</TR>
+												</TABLE>
+											</TD>
+										</TR>
+						</TABLE>
+						<!--CLOSE OF ALL ENCOMPASSING TABLE ROW ONE//-->
+					</TD>
+				</TR>
+				<TR VALIGN="TOP">
+					<TD HEIGHT="100%">
+						<!--OPEN OF ALL ENCOMPASSING TABLE ROW TWO//-->
+						<TABLE CLASS="ONE" BORDER="0" CELLPADDING="0" CELLSPACING="0">
+							<COL>
+								<TR>
+									<TD VALIGN="TOP" HEIGHT="100%">
+										<!--OPEN OF CONTENT AND BUTTON TABLE//-->
+										<TABLE CLASS="ONE" BORDER="0" CELLPADDING="0" CELLSPACING="0">
+											<COL WIDTH="100%">
+												<TR VALIGN="TOP">
+													<TD HEIGHT="100%">
+														<!--OPEN OF CONTENT//-->
+														<TABLE CLASS="CONTENT" BORDER="0" CELLPADDING="0" CELLSPACING="0">
+															<COL WIDTH="12">
+																<COL WIDTH="180">
+																	<COL WIDTH="12">
+																		<COL WIDTH="180">
+																			<COL WIDTH="12">
+																				<TR>
+																					<TD VALIGN="TOP" HEIGHT="12" COLSPAN="5">
+																						&nbsp;
+																					</TD>
+																				</TR>
+																				<TR VALIGN="TOP">
+																					<TD VALIGN="TOP" WIDTH="12">
+																						&nbsp;
+																					</TD>
+																					<TD VALIGN="TOP">
+																						<SPAN class="itemTextTop" TITLE="">
+																							<LABEL FOR="INTERFACE_NAME" TITLE="The name of the interface." ID="INTERFACE_NAME_LABEL">
+																								<U>I</U>nterface Name <LABEL>
+																									<BR>
+																									<INPUT CLASS="sideBtn" TYPE="text" ID="INTERFACE_NAME" ACCESSKEY="I" VALUE="" ONPROPERTYCHANGE="OnNameChange();" TABINDEX="1">
+																						</SPAN>
+																						<P CLASS="ElementSpacer2">
+																							&nbsp;
+																						</P>
+																						<SPAN CLASS="itemText" TITLE="">
+																							<LABEL FOR="FILE_LIST" ID="FILE_LIST_LABEL" TITLE="Select or type the name of the file where the interface will be declared.">
+																								<U>D</U>eclaration File</LABEL>
+																							<BR>
+																							<OBJECT class="itemText" id="FILE_LIST" ACCESSKEY="D" classid="CLSID:B4455841-B9A9-441C-B069-A7B98884E2FB" width="200" height="20" TABINDEX="2">
+																							</OBJECT>
+																						</SPAN>
+																						<P CLASS="ElementSpacer2">
+																							&nbsp;
+																						</P>
+																						<SPAN class="itemText" TITLE="">
+																							<LABEL FOR="HELPSTRING" ID="HELPSTRING_LABEL" TITLE="Type the interface helpstring.">
+																								<U>H</U>elpstring <LABEL>
+																									<BR>
+																									<INPUT CLASS="sideBtn" type="text" id="HELPSTRING" ACCESSKEY="H" TABINDEX="3" VALUE="">
+																						</SPAN>
+																						<P CLASS="ElementSpacer2">
+																							&nbsp;
+																						</P>
+																						<SPAN CLASS="itemText" TITLE="">
+																							<LABEL FOR="COMMENT" ID="COMMENT_LABEL" TITLE="Type a comment for the interface.">
+																								C<U>o</U>mment</LABEL>
+																							<BR>
+																							<INPUT class="sideBtn" type="text" id="COMMENT" ACCESSKEY="O" TABINDEX="4" VALUE="">
+																						</SPAN>
+																					</TD>
+																					<TD VALIGN="TOP" WIDTH="12">
+																						&nbsp;
+																					</TD>
+																					<TD VALIGN="TOP">
+																						<SPAN class="itemText" ID="INTERFACE_TYPE_SPAN" TITLE="Select the type of interface.">
+																							<B>Type:</B></SPAN>
+																						<BR>
+																						<SPAN CLASS="itemText" TITLE="">
+																							<INPUT type="radio" name="TYPE" id="DUAL" ACCESSKEY="U" TABINDEX="5">
+																							<LABEL FOR="DUAL" ID="DUAL_LABEL" title="Select this option to derive the interface from IDispatch.">
+																								D<U>u</U>al</LABEL>
+																							<BR>
+																						</SPAN><SPAN CLASS="itemText" TITLE=""><INPUT type="radio" name="TYPE" id="CUSTOM" ACCESSKEY="C" onpropertychange="OnCustom();" TABINDEX="6">
+																							<LABEL FOR="CUSTOM" ID="CUSTOM_LABEL" title="Select this option to derive the interface from IUnknown.">
+																								<U>C</U>ustom</LABEL>
+																							<BR>
+																							<SPAN CLASS="itemText" TITLE="">&nbsp;&nbsp;&nbsp;&nbsp <INPUT type="checkbox" id="AUTOMATION" ACCESSKEY="A" TABINDEX="7">
+																								<LABEL ID="AUTOMATION_LABEL" FOR="AUTOMATION" TITLE="Select this option if you want your interface to support Automation.">
+																									<U>A</U>utomation Compatible</LABEL>
+																								<BR>
+																							</SPAN>
+																						</SPAN>
+																					</TD>
+																					<TD VALIGN="TOP" WIDTH="12">
+																						&nbsp;
+																					</TD>
+																				</TR>
+														</TABLE>
+														<!--CLOSE OF CONTENT//-->
+													</TD>
+												</TR>
+												<TR VALIGN="BOTTOM">
+													<TD HEIGHT="48">
+														<!--OPEN OF BUTTON HTML//-->
+														<TABLE CLASS="ONE" HEIGHT="48" BORDER="0" CELLPADDING="0" CELLSPACING="0">
+															<COL WIDTH="12">
+																<COL>
+																	<COL WIDTH="75">
+																		<COL WIDTH="4">
+																			<COL WIDTH="75">
+																				<COL WIDTH="4">
+																					<COL WIDTH="75">
+																						<COL WIDTH="12">
+																							<TR>
+																								<TD VALIGN="TOP" CLASS="RULE" COLSPAN="8" HEIGHT="2">
+																									<TABLE BORDER="0" WIDTH="100%" HEIGHT="1" CELLPADDING="0" CELLSPACING="0">
+																										<TR VALIGN="TOP">
+																											<TD HEIGHT="1" WIDTH="100%" BGCOLOR="BUTTONSHADOW">
+																												<IMG SRC="../../Images/spacer.gif" HEIGHT="1" WIDTH="1" ALT="">
+																											</TD>
+																											<TD HEIGHT="1" WIDTH="1" BGCOLOR="WINDOW">
+																												<IMG SRC="../../Images/spacer.gif" HEIGHT="1" WIDTH="1" ALT="">
+																											</TD>
+																										</TR>
+																									</TABLE>
+																								</TD>
+																							</TR>
+																							<TR>
+																								<TD VALIGN="TOP" HEIGHT="11" COLSPAN="8">
+																									&nbsp;
+																								</TD>
+																							</TR>
+																							<TR>
+																								<TD VALIGN="MIDDLE" HEIGHT="23" WIDTH="12">
+																									&nbsp;
+																								</TD>
+																								<TD VALIGN="TOP" HEIGHT="23">
+																									&nbsp;
+																								</TD>
+																								<TD VALIGN="TOP" HEIGHT="23">
+																									&nbsp;
+																								</TD>
+																								<TD VALIGN="TOP" HEIGHT="23">
+																									&nbsp;
+																								</TD>
+																								<TD VALIGN="MIDDLE" HEIGHT="23" WIDTH="75">
+																									<BUTTON CLASS="BUTTONS" ID="FinishBtn" ACCESSKEY="F" onClick="OnFinish(document);"><U>F</U>inish</BUTTON>
+																								</TD>
+																								<TD VALIGN="MIDDLE" HEIGHT="23" WIDTH="4">
+																									&nbsp;
+																								</TD>
+																								<TD VALIGN="MIDDLE" HEIGHT="23" WIDTH="75">
+																									<BUTTON CLASS="BUTTONS" ID="CancelBtn" ACCESSKEY="C" onClick="window.external.Finish(document, 'cancel');">
+																										<U>C</U>ancel</BUTTON>
+																								</TD>
+																								<TD VALIGN="MIDDLE" HEIGHT="23" WIDTH="4">
+																									&nbsp;
+																								</TD>
+																							</TR>
+																							<TR>
+																								<TD VALIGN="TOP" HEIGHT="12" COLSPAN="8">
+																									&nbsp;
+																								</TD>
+																							</TR>
+														</TABLE>
+														<!--CLOSE OF BUTTON HTML//-->
+													</TD>
+												</TR>
+										</TABLE>
+										<!--CLOSE OF CONTENT AND BUTTON TABLE//-->
+									</TD>
+								</TR>
+						</TABLE>
+						<!--CLOSE OF ALL ENCOMPASSING TABLE ROW TWO//-->
+					</TD>
+				</TR>
+		</TABLE>
+	</BODY>
+</HTML>
+<SCRIPT LANGUAGE="JSCRIPT">
+var tab_array = new Array();
+var bIsAttributed;
+
+function InitDocument(document)
+{
+	if (window.external.FindSymbol("DOCUMENT_FIRST_LOAD"))
+	{
+		var L_WIZARDDIALOGTITLE_Text = "Add Interface Wizard";
+		window.external.AddSymbol("WIZARD_DIALOG_TITLE", L_WIZARDDIALOGTITLE_Text);
+		window.external.SetDefaults(document);
+		var coll = document.all.tags("SYMBOL");
+		var numSymbols = coll.length;
+		for (i = 0; i < numSymbols; i++)
+		{
+			var obj = coll(i);
+			if (typeof(obj.VALUE) == "undefined")
+				obj.VALUE = getval(obj, strProjName);
+		}
+		DUAL.checked = true;
+		AUTOMATION.disabled = true;
+		AUTOMATION_LABEL.disabled = true;
+		var oSolution = window.external.dte.Solution;
+		var strProjectName = window.external.FindSymbol("PROJECT_NAME");
+		var iProject;
+		for (iProject = 1; iProject <= oSolution.Count; iProject++)
+		{
+			if (oSolution(iProject).Name == strProjectName)
+				break;
+		}
+		bIsAttributed = IsAttributedProject(window.external);
+		var oFiles = oSolution(iProject).Object.Files;
+		var iFile;
+		for (iFile = 1; iFile <= oFiles.Count; iFile++)
+		{
+			if (!bIsAttributed)
+			{
+				if (-1 != oFiles(iFile).Name.toUpperCase().search(".IDL"))
+					FILE_LIST.AddItem(oFiles(iFile).Name);		
+			}
+			else
+			{
+				if ((-1 != oFiles(iFile).Name.toUpperCase().search(".CPP")) ||
+				    (-1 != oFiles(iFile).Name.toUpperCase().search(".H")))
+					FILE_LIST.AddItem(oFiles(iFile).Name);
+			}
+		}
+	}
+	else
+		window.external.Load(document);
+}
+
+function Next(document, linkto)
+{
+	window.external.Next(document, linkto);
+}
+
+function OnFinish(obj)
+{
+	if (!ValidateInput())
+		return;
+	window.external.AddSymbol("INTERFACE_FILE", FILE_LIST.value);
+	window.external.AddSymbol("ATTRIBUTED", bIsAttributed);
+	OnWizFinish(document);
+}
+
+function OnCustom()
+{
+	if (CUSTOM.checked)
+	{
+		AUTOMATION.disabled = false;
+		AUTOMATION_LABEL.disabled = false;
+	}
+	else
+	{
+		AUTOMATION.checked = false;
+		AUTOMATION.disabled = true;
+		AUTOMATION_LABEL.disabled = true;
+	}
+}
+
+function OnNameChange()
+{	
+	var strInterfaceName = INTERFACE_NAME.value;
+	if (strInterfaceName.length != 0)
+		HELPSTRING.value = "Interface " + strInterfaceName;
+	else
+		HELPSTRING.value = "";
+}
+
+function ValidateInput()
+{
+	var strFileName = FILE_LIST.value;
+	if (!window.external.ParentObject.ValidateMember(INTERFACE_NAME.value, vsCMElementInterface))
+	{
+		window.external.ReportError();
+		return false;
+	}
+	if (!window.external.dte.VCLanguageManager.ValidateFileName(strFileName, vsCMValidateFileExtNone))
+	{
+		window.external.ReportError();	
+		return false;
+	}
+	if (!bIsAttributed && (-1 == strFileName.toUpperCase().search(".IDL")))
+	{
+		var L_InvalidExtension_Text = "The file extension must be \'.IDL\'";
+		window.external.ReportError(L_InvalidExtension_Text);
+		FILE_LIST.focus();
+		return false;
+	}
+	return true;
+}
+</SCRIPT>
+<SCRIPT LANGUAGE="JSCRIPT" SRC="../../../../../1033/script.js"></SCRIPT>
+<SCRIPT LANGUAGE="JSCRIPT" SRC="../../../../../1033/common.js"></SCRIPT>
